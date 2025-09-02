@@ -22,9 +22,33 @@ To write a Python program to evaluate the value of **sinh(x)** for **n terms** u
 ---
 
 ## 💻 PROGRAM:
+def f(x,y):
 
-ADD CODE HERE
+    if y==0:
 
+        return x
+   
+    else:
+    
+        return (x**(2*y+1))/fact(2*y+1)+f(x,y-1)
+
+def fact(y):
+   
+    if y==0:
+
+        return 1
+    
+    else:
+    
+        return y*fact(y-1)
+
+a=int(input())
+
+b=int(input())
+
+print(f(a,b))
 ## OUTPUT
+<img width="623" height="258" alt="image" src="https://github.com/user-attachments/assets/4a6f4927-4098-4243-8c43-10ee7d386682" />
 
 ## RESULT
+Thus the  Python program to evaluate the value of **sinh(x)** for **n terms** using recursion is executed and verified successfully.
