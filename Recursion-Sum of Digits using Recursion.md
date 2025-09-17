@@ -15,14 +15,14 @@ To write a Python program to find the sum of first n Natural Numbers.
 6. Stop
 
 ## 💻 PROGRAM:
-~~
+~~~
 def sum_of_numbers(n):
 if(n<=0):
     return 0
 return((n)+sum_of_numbers(n-1))
 n = int(input())
 print('Result is',sum_of_numbers(n))
-~~
+~~~
 
 ## OUTPUT
 <img width="694" height="296" alt="image" src="https://github.com/user-attachments/assets/8b483525-c863-4552-a621-f54a35f16146" />
